@@ -40,3 +40,29 @@ root@d4e8f3ca43df:~ls
 Задание 14 
 root@d4e8f3ca43df:~# ls -al /etc
 Задание 15
+Задание 16 cd classics
+Задание 18 
+17)classics# cd etc/X11 root@f798856ead4d:/classics/etc/X11# ls root@f798856ead4d:~/classics/etc/X11# pwd /root/classics/etc/X11
+
+18)~/classics/etc/X11# cd /
+
+19)/classics# cd etc root@f798856ead4d:/classics/etc# pwd /root/classics/etc
+
+20)classics/etc# printf "Hello\n" > group root@f798856ead4d:/classics/etc# cat group Hello
+
+21)~/classics/etc# cat group passwd Hello Good morning
+
+22)~/classics/etc# cat group | head -n 5 Hello
+
+23)~/classics/etc# cat passwd | tail -n 3 Good morning
+
+24)~/classics/etc# wc -l passwd
+1 passwd
+
+25):~# cd student
+
+26)/student# touch file1 file2 file3 root@f798856ead4d:/student# ls file1 file2 file3
+
+27)/student# mkdir dir1 dir2 dir3 root@f798856ead4d:/student# ls dir1 dir2 dir3 file1 file2 file3
+
+28)~/student# cp file1 dir1
