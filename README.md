@@ -46,6 +46,7 @@
 ###  Задание 14 
     root@d4e8f3ca43df:~# ls -al /etc
 ### Задание 15
+![](https://pbs.twimg.com/media/Dt6dRlgWoAA0IwJ.jpg:large)
 ### Задание 16 
     cd classics
 #### Задание 17 
@@ -59,27 +60,27 @@
    #### Задание 20 
       classics/etc# printf "Hello\n" > group root@f798856ead4d:/classics/etc# cat group Hello
 
-    #### Задание 21 
+  #### Задание 21 
     ~/classics/etc# cat group passwd Hello Good morning
 
    #### Задание 22 
       ~/classics/etc# cat group | head -n 5 Hello
 
-    #### Задание 23
+  #### Задание 23
          ~/classics/etc# cat passwd | tail -n 3 Good morning
 
-    #### Задание 24
+  #### Задание 24
         ~/classics/etc# wc -l passwd
          1 passwd
 
-    #### Задание 25 
+  #### Задание 25 
          :~# cd student
 
-    #### Задание 26 
+  #### Задание 26 
          /student# touch file1 file2 file3 root@f798856ead4d:/student# ls file1 file2 file3
 
-    #### Задание 27
+  #### Задание 27
          /student# mkdir dir1 dir2 dir3 root@f798856ead4d:/student# ls dir1 dir2 dir3 file1 file2 file3
 
-    #### Задание 28 
+  #### Задание 28 
          ~/student# cp file1 dir1
